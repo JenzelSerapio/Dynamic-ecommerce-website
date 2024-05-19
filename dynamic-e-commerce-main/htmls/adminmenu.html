@@ -1,0 +1,38 @@
+<div class="itmtitle">
+Admin Menu:
+</div>
+
+	<div class="adminrow">
+		<div class="admincol" style="border:none">-</div>
+		<div class="admincol">Add</div>
+		<div class="admincol">Modify</div>
+		<div class="admincol">Delete</div>
+	</div>
+	<hr style="margin: 0;"/>
+	<div class="adminrow">
+		<div class="admincol">User</div>
+		<input type="submit" class="adminform" name="adminquery" value="addusr">
+		<input type="submit" class="adminform" name="adminquery" value="mdfusr">
+		<input type="submit" class="adminform" name="adminquery" value="delusr">
+	</div>
+	<hr style="margin: 0;"/>
+	<div class="adminrow">
+		<div class="admincol">Item</div>
+		<form class="adminmenu" method="POST" action="additm.html">
+			<input type="submit" class="adminform" name="adminquery" value="additm">
+		</form>
+		<form class="adminmenu" method="POST" action="mdfitm.html">
+			<input type="submit" class="adminform" 
+			name="adminquery" value="mdfitm">
+		</form>	
+		<form class="adminmenu" method="POST" action="delitm.html">
+			<input type="submit" class="adminform" name="adminquery" value="delitm">
+		</form>
+	</div>
+	<hr style="margin: 0;"/>
+	<div class="adminrow">
+		<div class="admincol">Category</div>
+		<input type="submit" class="adminform" name="adminquery" value="addcat">
+		<input type="submit" class="adminform" name="adminquery" value="mdfcat">
+		<input type="submit" class="adminform" name="adminquery" value="delcat">
+	</div>
